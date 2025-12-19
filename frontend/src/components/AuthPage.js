@@ -25,8 +25,7 @@ function AuthPage({ onLogin }) {
       setPassword('');
       onLogin();
     } catch (err) {
-      console.error('Auth error:', err);
-      const message = err.response?.data?.detail || err.message || 'Authentication failed';
+      const message = err.response?.data?.detail || 'Authentication failed';
       setError(message);
     } finally {
       setLoading(false);
