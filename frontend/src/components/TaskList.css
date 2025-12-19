@@ -1,0 +1,20 @@
+.task-list {
+  margin-top: 20px;
+}
+
+.task-section {
+  margin-bottom: 25px;
+}
+
+.section-title {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
