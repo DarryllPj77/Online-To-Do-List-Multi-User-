@@ -1,0 +1,8 @@
+# Patterns and guidelines to ignore
+venv/
+env/
+__pycache__/
+*.db
+*.sqlite
+.env
+.DS_Store
